@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="bfile">
+</Property><Property Name="Solution File" Value="C:\dev\bfile2005\bfile.sln">
+</Property><Property Name="User Options File" Value="C:\dev\bfile2005\bfile.suo">
+</Property><Property Name="Date" Value="Tuesday, January 06, 2015">
+</Property><Property Name="Time" Value="8:58 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="bfile.sln" Description="Error creating backup file: C:\dev\bfile2005\bfile.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="bfile.suo" Description="Error creating backup file: C:\dev\bfile2005\bfile.suo.old">
+</Event><Event ErrorLevel="0" Project="bfile" Source="bfile.vcproj" Description="Converting project file 'C:\dev\bfile2005\bfile.vcproj'.">
+</Event><Event ErrorLevel="1" Project="bfile" Source="bfile.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="bfile" Source="bfile.vcproj" Description="MSB8012: $(TargetPath) ('C:\dev\bfile2005\.\Debug\bfile.dll') does not match the Linker's OutputFile property value '.\Debug/bfile.dll' ('C:\dev\bfile2005\Debug/bfile.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="bfile" Source="bfile.vcproj" Description="MSB8012: $(TargetPath) ('C:\dev\bfile2005\.\Release\bfile.dll') does not match the Linker's OutputFile property value '.\Release/bfile.dll' ('C:\dev\bfile2005\Release/bfile.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="bfile" Source="bfile.vcproj" Description="Done converting to new project file 'C:\dev\bfile2005\bfile.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="bfile" Source="bfile.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="bfile.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="bfile.sln" Description="Converted">
+</Event></UpgradeLog>

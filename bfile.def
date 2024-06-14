@@ -1,0 +1,84 @@
+; bfile.def : Declares the module parameters for the DLL.
+
+LIBRARY      "bfile"
+DESCRIPTION  'bfile Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	??0bf_read_only@@QAE@QAD@Z
+	?write_epoch@bf_write_only@@QAEFQAG@Z
+	?write_bhdr@bf_write_only@@QAEFXZ
+	?build_bhdr@bf_base@@QAEFUB_HEADER@@QAFF@Z
+	??0bf_write_only@@QAE@QAD@Z
+	?get_bfilnm@bf_base@@QAEXQAD@Z
+	??0bf_read_only@@QAE@XZ
+	??1bf_read_only@@QAE@XZ
+	??1bf_write_only@@QAE@XZ
+	??0bf_read_write@@QAE@QADFI@Z
+	?disp_bhdr@bf_base@@QAEFF@Z
+	?calc_sample_count@bf_base@@QAEJM@Z
+	?check_sample_count@bf_base@@QAEFJ@Z
+	?fix_up_sample_count@bf_base@@QAEFJ@Z
+	?rename_bfilnm@bf_base@@QAEFQAD@Z
+	?write_bhdr@bf_read_write@@QAEFXZ
+	?rewind@bf_read_only@@UAEFXZ
+	?skip_smp@bf_read_only@@UAEFJJ@Z
+	?skip_epoch@bf_read_only@@UAEFJ@Z
+	
+	?get_bfilpath@bf_base@@QAEXQAD@Z
+	write_comments
+	switch_bytes_hp
+	?save_artifact_specrem@bsf_ro_rw@@QAEFF@Z
+	?set_artifact_at_btick@bsf_ro_rw@@QAEFJF@Z
+	??0bsf_ro_rw@@QAE@PADPBD@Z
+	??0bsf_ro_rw@@QAE@PBD@Z
+	??0bf_write_only@@QAE@XZ
+	?ModifySpecParams@SFile@@QAEXPAF@Z
+	?Close@SFile@@QAEXXZ
+	?WriteHead@SFile@@QAEFFF@Z
+	?DisplaySpecParams@SFile@@QAEXPAV1@@Z
+	?DisplaySpecParams@SFile@@QAEXXZ
+	?GetSpecParams@SFile@@QAEFXZ
+	?OpenSP@SFile@@QAEFF@Z
+	?Exists@SFile@@QAEFPAD@Z
+	??0SFile@@QAE@PAD@Z
+	??0SFile@@QAE@XZ
+	??1SFile@@QAE@XZ
+	?ReadSpec@SFile@@QAEFPAM@Z
+	?Open@SFile@@QAEFF@Z
+	?dump_all@SFile@@QAEXXZ
+	?GetADZERO@@YAJXZ
+	?read_epoch@bf_read_write@@QAEFQAG@Z
+	??0bf_read_write@@QAE@FI@Z
+	??1bf_read_write@@QAE@XZ
+	??0SFile@@QAE@JQADF0@Z
+	?dump_artifact@SFile@@QAEXXZ
+	??0SFile@@QAE@PAVbf_read_only@@PAD@Z
+	?WriteSpec@SFile@@QAEFPAM@Z
+	??0EDF_FILE@@QAE@XZ
+	??1EDF_FILE@@QAE@XZ
+	?CloseEDFFile@EDF_FILE@@QAEXXZ
+	?ReadEDFHeader@EDF_FILE@@QAE_N_N@Z
+	?OpenEDFFile@EDF_FILE@@QAE_NQAD@Z
+	?OpenAsEDF@bf_write_only@@QAEFXZ
+	?MakeEDFHeaderFromBfile@bf_base@@QAEXPAV1@@Z
+	?ImportEDFInfo@bf_base@@QAEXPAVEDF_FILE@@@Z
+	?DecimateSampleCount@bf_base@@QAEXF@Z
+	?TempClose@SFile@@QAEFF@Z
+	?SetADZERO@@YAXJ@Z
+	?ReadEDFSample@EDF_FILE@@QAE_NXZ
+	?InitSampleChunk@EDF_FILE@@QAEXPAUSAMPLE_CHUNK@@@Z
+	?ReadEDFSampleChunk@EDF_FILE@@QAE_NPAUSAMPLE_CHUNK@@@Z
+	?Rewind@EDF_FILE@@QAEXXZ
+	?ReOpen@SFile@@QAEFF@Z
+	?Flush@SFile@@QAEXXZ
+	?In2dArtifact@SFile@@QAEFFF@Z
+	write_bhead_pc
+	?write_epoch@bf_read_write@@QAEFQAG@Z
+	?dump_artifact@SFile@@QAEXQAD@Z
+	??0bf_read_only@@QAE@QAD@Z
+	??0bf_read_only@@QAE@QADAA_N0@Z
+ 
+ 
+
+
